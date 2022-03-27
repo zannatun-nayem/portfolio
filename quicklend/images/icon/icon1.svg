@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="500" viewBox="0 0 600 500">
+  <defs>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="600" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <g id="loan_2_" data-name="loan (2)" transform="translate(44 -5.75)">
+      <path id="Path_1" data-name="Path 1" d="M400,126.75v-15H383v-17H368v17H352v39h32v9H352v15h16v16h15v-16h16v-39H367v-9Z" fill="#1f850a"/>
+      <path id="Path_2" data-name="Path 2" d="M264,103.75h72v15H264Z" fill="#1f850a"/>
+      <path id="Path_3" data-name="Path 3" d="M296,335.75h16v15H296Z" fill="#1f850a"/>
+      <path id="Path_4" data-name="Path 4" d="M328,335.75h16v15H328Z" fill="#1f850a"/>
+      <path id="Path_5" data-name="Path 5" d="M360,335.75h16v15H360Z" fill="#1f850a"/>
+      <path id="Path_6" data-name="Path 6" d="M208,135.75H336v15H208Z" fill="#1f850a"/>
+      <path id="Path_7" data-name="Path 7" d="M208,167.75H336v15H208Z" fill="#1f850a"/>
+      <path id="Path_8" data-name="Path 8" d="M256,199.75H400v15H256Z" fill="#1f850a"/>
+      <path id="Path_9" data-name="Path 9" d="M320,231.75h80v15H320Z" fill="#1f850a"/>
+      <path id="Path_10" data-name="Path 10" d="M320,263.75h80v15H320Z" fill="#1f850a"/>
+      <path id="Path_11" data-name="Path 11" d="M320,295.75h80v15H320Z" fill="#1f850a"/>
+      <path id="Path_12" data-name="Path 12" d="M279,311.75h24V251.337L183,184.67V118.75h64v-64H424v257h15v-272H236.894L168,107.644v68.693l-16.5-9.167L0,251.337V311.75H24v113H0v47H192v-15H15v-17H288v17H208v15h95v-47H279v-18h73v-15H279ZM232,64.856V103.75H194.106ZM152,184.83l115.056,63.92H240.345L152,199.67,63.657,248.75H36.944Zm57.456,63.92H94.545L152,216.83ZM120,424.75H87v-97H72v97H39v-113h81Zm48,0H135v-113h33Zm48,0H183v-18h33Zm0-33H183v-80h33Zm48,33H231v-113h33Zm-249-128v-33H288v33Z" fill="#1f850a"/>
+      <path id="Path_13" data-name="Path 13" d="M112,272.75h16v15H112Z" fill="#1f850a"/>
+      <path id="Path_14" data-name="Path 14" d="M144,272.75h16v15H144Z" fill="#1f850a"/>
+      <path id="Path_15" data-name="Path 15" d="M176,272.75h16v15H176Z" fill="#1f850a"/>
+      <path id="Path_16" data-name="Path 16" d="M440,328.25a71.5,71.5,0,1,0,71.5,71.5A71.581,71.581,0,0,0,440,328.25Zm0,128a56.5,56.5,0,1,1,56.5-56.5A56.564,56.564,0,0,1,440,456.25Z" fill="#1f850a"/>
+      <path id="Path_17" data-name="Path 17" d="M440,360.25a39.5,39.5,0,1,0,39.5,39.5A39.545,39.545,0,0,0,440,360.25Zm0,64a24.5,24.5,0,1,1,24.5-24.5A24.528,24.528,0,0,1,440,424.25Z" fill="#1f850a"/>
+    </g>
+  </g>
+</svg>

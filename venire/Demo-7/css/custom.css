@@ -1,0 +1,377 @@
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.nav_bar {
+  background-color: transparent;
+  position: fixed;
+  z-index: 10001;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav_bar .navbar-toggler:focus {
+  box-shadow: unset;
+}
+.nav_bar .navbar-toggler .navbar-toggler-icon {
+  height: unset;
+  width: unset;
+  color: #1c1c4a;
+}
+.nav_bar .nav-style .nav-item {
+  font-size: 15px;
+  margin: 2px;
+}
+.nav_bar .nav-style .nav-item .nav-link {
+  color: #1c1c4a;
+}
+.nav_bar .modal-title {
+  font-size: 40px;
+  margin: auto;
+}
+.nav_bar .about-box-icon {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_bar .about-box-icon i {
+  margin-bottom: 12px;
+  color: #1c1c4a;
+  font-size: 35px;
+}
+
+/* general styling */
+.counter ul {
+  padding: 0px;
+}
+.counter ul li {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  list-style-type: none;
+  padding: 15px 40px 15px 0px;
+  color: #1c1c4a;
+}
+.counter ul li span {
+  display: block;
+  font-size: 45px;
+  font-weight: 700;
+  color: #1c1c4a;
+}
+
+.choose {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  z-index: 1000;
+  overflow: hidden;
+}
+.choose .active {
+  transform: translate(-225px);
+}
+.choose .colors {
+  float: left;
+  background: #fff;
+}
+.choose .colors .theme ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  height: 35px;
+}
+.choose .colors .theme ul li {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+.choose .colors .theme ul li:nth-child(1) {
+  background: #2b08f5;
+  color: #2b08f5;
+  background-image: url(../bg/bg-blue.png);
+}
+.choose .colors .theme ul li:nth-child(2) {
+  background: #ff0000;
+  color: #ff0000;
+  background-image: url(../bg/bg-red.png);
+}
+.choose .colors .theme ul li:nth-child(3) {
+  background: #f8b15f;
+  color: #f8b15f;
+  background-image: url(../bg/bg-yellow.png);
+}
+.choose .colors .theme ul li:nth-child(4) {
+  background: #da4d4d;
+  color: #da4d4d;
+  background-image: url(../bg/bg-light-red.png);
+}
+.choose .colors .theme ul li:nth-child(5) {
+  background: #d80ab6;
+  color: #d80ab6;
+  background-image: url(../bg/bg-voilate.png);
+}
+.choose .themes-btn {
+  float: left;
+  color: #ff8800;
+  background: transparent;
+  padding: 8px 8px 8px 25px;
+  box-shadow: 4px 4px 10px -3px rgba(0, 0, 0, 0.56);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.home-area {
+  width: 100%;
+  background-image: url(../bg/bg1.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home-area .home-content .home-content2 {
+  height: 100vh;
+  width: 100%;
+}
+.home-area .home-content .home-content2 .home-title h1 {
+  font-family: "Poppins", sans-serif;
+  color: #1c1c4a;
+  font-weight: 700;
+  margin: 25px 0px 15px 0px;
+  font-size: 35px;
+}
+.home-area .home-content .home-content2 .home-title p {
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+  background: #1c1c4a;
+  display: inline;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.home-area .home-content .home-content2 .notification {
+  font-size: 20px;
+  font-weight: 400;
+  color: #1c1c4a;
+  margin-bottom: 2px;
+}
+.home-area .home-content .home-content2 .notification p {
+  margin-bottom: unset;
+}
+.home-area .home-content .home-content2 .notify-form {
+  width: 65%;
+}
+.home-area .home-content .home-content2 .notify-form .input-group button {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  padding: 15px 20px;
+  background: #ff8800;
+  border: 2px solid transparent;
+  color: #fff;
+}
+.home-area .contact-form {
+  padding: 30px 10px 30px 10px;
+  border: 1px solid rgba(28, 28, 74, 0.2);
+  border-radius: 5px;
+}
+.home-area .contact-form h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.home-area .contact-form p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.home-area .contact-form form .form-group {
+  padding: 10px;
+  margin: 5px;
+}
+.home-area .contact-form form .form-group input {
+  padding: 10px;
+}
+.home-area .contact-form form .form-group button {
+  width: 100%;
+  background: #1c1c4a;
+  color: #fff;
+  border: transparent;
+}
+.home-area .contact-form form .form-group button .btn {
+  padding: 10px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  color: #1c1c4a;
+  z-index: 99;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+@media (max-width: 1199.98px) {
+  .home-area .home-content .contact-form {
+    padding: 13px 5px 13px 5px;
+  }
+}
+@media (max-width: 991.98px) {
+  .nav_bar .nav-style .nav-item {
+    background-color: #ff8800;
+    font-size: 20px;
+    margin: 2px;
+  }
+  .nav_bar .nav-style .nav-item .nav-link {
+    text-align: center;
+    color: #fff;
+  }
+
+  .home-area .home-content .home-content2 .home-title h1 {
+    font-size: 40px;
+  }
+  .home-area .home-content .home-content2 .home-title p {
+    font-size: 25px;
+  }
+  .home-area .home-content .home-content2 .notification {
+    font-size: 20px;
+  }
+  .home-area .home-content .home-content2 .notify-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .home-area .home-content .home-content2 .notify-form .input-group::placeholder {
+    font-size: 10px;
+  }
+  .home-area .home-content .home-content2 .notify-form .input-group button {
+    padding: 8px 8px;
+  }
+  .home-area .home-content .home-content2 .counter {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-area .home-content .home-content2 .counter li {
+    text-align: center;
+    font-size: 12px;
+    padding: 12px;
+  }
+  .home-area .home-content .home-content2 .counter li span {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  .nav_bar .nav-style .nav-item {
+    background-color: #ff8800;
+    font-size: 20px;
+    margin: 2px;
+  }
+  .nav_bar .nav-style .nav-item .nav-link {
+    text-align: center;
+    color: #fff;
+  }
+  .nav_bar .nav-social-icon ul {
+    display: none;
+  }
+  .nav_bar .nav-social-icon ul li {
+    display: none;
+  }
+  .nav_bar .nav-social-icon ul li a {
+    display: none;
+  }
+
+  .home-area .home-content .home-content2 .home-title h1 {
+    font-size: 40px;
+  }
+  .home-area .home-content .home-content2 .home-title p {
+    font-size: 25px;
+  }
+  .home-area .home-content .home-content2 .notification {
+    font-size: 20px;
+  }
+  .home-area .home-content .home-content2 .notify-form {
+    margin-left: auto;
+    width: 80%;
+  }
+  .home-area .home-content .home-content2 .notify-form .input-group::placeholder {
+    font-size: 10px;
+  }
+  .home-area .home-content .home-content2 .notify-form .input-group button {
+    padding: 5px 5px;
+  }
+  .home-area .home-content .home-content2 .counter {
+    text-align: center;
+  }
+  .home-area .home-content .home-content2 .counter li {
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+  }
+  .home-area .home-content .home-content2 .counter li span {
+    font-size: 25px;
+  }
+}
+@media (max-width: 575.98px) {
+  .nav_bar .nav-style .nav-item {
+    background-color: #ff8800;
+    font-size: 18px;
+    margin: 2px;
+  }
+  .nav_bar .nav-style .nav-item .nav-link {
+    text-align: center;
+    color: #fff;
+  }
+  .nav_bar .modal-title {
+    font-size: 20px;
+    margin: auto;
+  }
+  .nav_bar .about-box-icon i {
+    font-size: 25px;
+  }
+  .nav_bar .modal-title {
+    font-size: 20px;
+    margin: auto;
+  }
+
+  .home-area .home-content .home-content2 .home-title h1 {
+    font-size: 25px;
+  }
+  .home-area .home-content .home-content2 .home-title p {
+    font-size: 15px;
+  }
+  .home-area .home-content .home-content2 .notification {
+    font-size: 15px;
+  }
+  .home-area .home-content .home-content2 .notify-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .home-area .home-content .home-content2 .notify-form .input-group::placeholder {
+    font-size: 10px;
+  }
+  .home-area .home-content .home-content2 .notify-form .input-group button {
+    padding: 5px 5px;
+  }
+  .home-area .home-content .home-content2 .counter {
+    text-align: center;
+  }
+  .home-area .home-content .home-content2 .counter li {
+    text-align: center;
+    font-size: 7px;
+    padding: 7px;
+  }
+  .home-area .home-content .home-content2 .counter li span {
+    font-size: 20px;
+  }
+
+  footer {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+}

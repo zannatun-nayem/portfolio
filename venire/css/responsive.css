@@ -1,0 +1,44 @@
+@media (max-width: 1140px) {
+  ul.social-touch {
+    width: 100%;
+  }
+  ul.social-touch li {
+    float: left;
+    width: 14.285%;
+  }
+}
+
+@media (max-width: 1024px) {
+  header .header-content .btn-wrap {
+    left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .demo-des p {
+    font-size: 16px;
+  }
+  ul.social-touch li a {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .copy-right {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 498px) {
+  .w25 {
+    width: 25% !important;
+  }
+  .w33 {
+    width: 33% !important;
+    margin-top: 20px;
+  }
+  .client-text h3 {
+    font-size: 16px;
+  }
+  .service-des .demo-des p {
+    font-size: 14px;
+  }
+}

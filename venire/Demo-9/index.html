@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.thethemely.com/demo/venire-html-coming-soon-template/Demo-9/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 27 Mar 2022 07:42:45 GMT -->
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="Bootstrap 5 HTML5 Coming Soon Landing Page Template" />
+<meta name="keywords" content="bootstrap, responsive, Coming Soon,Underconstructing" />
+<meta name="author" content="theThemely" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>
+      Venire| Bootstrap 5 HTML5 Underconstructing Landing Page Template
+    </title>
+
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+<link rel="manifest" href="favicon/site.html" />
+
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+
+<link rel="stylesheet" href="fontawesome/css/all.min.css" />
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/custom.css" />
+</head>
+<body>
+
+<div class="choose">
+<div class="colors active">
+<div class="theme">
+<ul class="themes-colors">
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+</div>
+<span class="themes-btn active"><i class="fas fa-cog fa-lg fa-spin"></i
+      ></span>
+</div>
+<div class="home-area">
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-7 d-flex flex-column">
+<div class="row text-center home-content">
+<div class="col-12 d-flex align-items-center justify-content-center">
+<div class="main-class d-flex flex-column align-items-center justify-content-center">
+<a class="logo" href="#">
+<img src="logo/logo1.png" alt="Logo" /></a>
+<div class="home-title text-center">
+<p>Coming Soon!!!</p>
+<h1>This website is Underconstruction.</h1>
+</div>
+<div class="notification">
+<p>Get Notification</p>
+</div>
+<form class="notify-form text-center">
+<div class="input-group mb-3">
+<input type="email" class="form-control" placeholder="Enter your email" aria-label="Email" aria-describedby="basic-addon1" />
+<button type="submit" class="input-group-text" id="basic-addon1">
+Submit
+</button>
+</div>
+</form>
+<div class="social-icon d-flex justify-content-center">
+<ul>
+<li class="d-inline">
+<a data-toggle="tooltip" href="https://www.twitter.com/" target="_blank" title=" Twitte" data-original-title="Twitter"><i class="fab fa-twitter"></i
+                        ></a>
+</li>
+<li class="d-inline">
+<a data-toggle="tooltip" href="https://www.facebook.com/" target="_blank" title="Facebook" data-original-title="Facebook"><i class="fab fa-facebook"></i
+                        ></a>
+</li>
+<li class="d-inline">
+<a data-toggle="tooltip" href="https://www.instagram.com/" target="_blank" title="Instagram" data-original-title="Instagram"><i class="fab fa-instagram"></i
+                        ></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-5 d-flex flex-column text-center contact-area">
+<div class="my-auto">
+<div class="row">
+<div class="col-12 mx-auto contact-form">
+<h3>Contact Us</h3>
+<p>We Ready to Support you, Send your query.</p>
+<form>
+<div class="form-group mx-auto">
+<input id="name" name="name" type="text" class="form-control" placeholder="Enter Your Name" required />
+</div>
+<div class="form-group mx-auto">
+<input id="email" name="email" type="email" class="form-control" placeholder="Enter Your Email" required />
+</div>
+<div class="form-group mx-auto">
+<textarea id="form-message" name="form-message" class="form-control" placeholder="Enter Your Question" required></textarea>
+</div>
+<div class="form-group mx-auto">
+<button id="submit-btn" class="form-control btn btn-primary btn-block mx-auto" type="submit">
+Send Message
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<footer>
+<div class="container-fluid">
+<p class="text-center">
+Copyright © 2021 theThemely. All Rights Reserved.
+</p>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script>
+      $(document).ready(function () {
+        $("span.themes-btn ").click(function () {
+          $(".colors, .themes-btn ").toggleClass("active");
+        });
+
+        $("ul.themes-colors li").click(function () {
+          $(".home-title p").css("background", $(this).css("color"));
+        });
+        $("ul.themes-colors li").click(function () {
+          $(".form-group .btn").css("background", $(this).css("color"));
+        });
+        $("ul.themes-colors li").click(function () {
+          $(".input-group-text").css("background", $(this).css("color"));
+        });
+      });
+    </script>
+</body>
+
+<!-- Mirrored from www.thethemely.com/demo/venire-html-coming-soon-template/Demo-9/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 27 Mar 2022 07:42:48 GMT -->
+</html>

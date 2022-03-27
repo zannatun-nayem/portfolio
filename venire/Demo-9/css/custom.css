@@ -1,0 +1,204 @@
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.choose {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  z-index: 1000;
+  overflow: hidden;
+}
+.choose .active {
+  transform: translate(-225px);
+}
+.choose .colors {
+  float: left;
+  background: #fff;
+}
+.choose .colors .theme ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  height: 35px;
+}
+.choose .colors .theme ul li {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+.choose .colors .theme ul li:nth-child(1) {
+  background: #2b08f5;
+  color: #2b08f5;
+}
+.choose .colors .theme ul li:nth-child(2) {
+  background: #ff0000;
+  color: #ff0000;
+}
+.choose .colors .theme ul li:nth-child(3) {
+  background: #f8b15f;
+  color: #f8b15f;
+}
+.choose .colors .theme ul li:nth-child(4) {
+  background: #da4d4d;
+  color: #da4d4d;
+}
+.choose .colors .theme ul li:nth-child(5) {
+  background: #d80ab6;
+  color: #d80ab6;
+}
+.choose .themes-btn {
+  float: left;
+  color: #ff8800;
+  background: transparent;
+  padding: 8px 8px 8px 25px;
+  box-shadow: 4px 4px 10px -3px rgba(0, 0, 0, 0.56);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.home-area {
+  height: 100vh;
+  width: 100%;
+}
+.home-area .home-content {
+  background-color: rgba(28, 28, 74, 0.4);
+  height: 100vh;
+  background-image: url(../bg/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home-area .home-content .main-class .logo {
+  padding: 15px;
+}
+.home-area .home-content .main-class .home-title h1 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  margin: 25px 0px 15px 0px;
+  font-size: 38px;
+}
+.home-area .home-content .main-class .home-title p {
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+  background: #ff8800;
+  display: inline;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.home-area .home-content .main-class .notification {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 2px;
+}
+.home-area .home-content .main-class .notification p {
+  margin-bottom: unset;
+}
+.home-area .home-content .main-class .notify-form {
+  width: 65%;
+}
+.home-area .home-content .main-class .notify-form .input-group:focus {
+  box-shadow: unset;
+  border-color: rgba(255, 136, 0, 0.4);
+}
+.home-area .home-content .main-class .notify-form .input-group button {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  padding: 10px 15px;
+  background: #ff8800;
+  border: 2px solid transparent;
+  color: #fff;
+}
+.home-area .home-content .main-class .about-text {
+  font-size: 15px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 10%;
+}
+.home-area .home-content .main-class .social-icon ul {
+  position: absolute;
+  bottom: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-area .home-content .main-class .social-icon ul li {
+  font-size: 25px;
+  padding: 0px 10px 0px 10px;
+}
+.home-area .home-content .main-class .social-icon ul li a {
+  color: #fff;
+}
+
+.contact-area .contact-form {
+  padding: 30px 30px 30px 30px;
+}
+.contact-area .contact-form h3 {
+  color: #1c1c4a;
+  font-size: 35px;
+  font-weight: 700;
+}
+.contact-area .contact-form p {
+  color: #1c1c4a;
+  font-size: 15px;
+  font-weight: 400;
+}
+.contact-area .contact-form form .form-group {
+  padding: 10px;
+  margin: 10px;
+}
+.contact-area .contact-form form .form-group input {
+  padding: 10px;
+}
+.contact-area .contact-form form .form-group input:focus {
+  box-shadow: unset;
+  border-color: rgba(255, 136, 0, 0.4);
+}
+.contact-area .contact-form form .form-group textarea:focus {
+  box-shadow: unset;
+  border-color: rgba(255, 136, 0, 0.4);
+}
+.contact-area .contact-form form .form-group button {
+  padding: 15px;
+  width: 100%;
+  background: #ff8800;
+  color: #fff;
+  border: transparent;
+}
+.contact-area footer {
+  color: #1c1c4a;
+  font-size: 15px;
+}
+
+@media (max-width: 575.98px) {
+  .home-area .home-content {
+    max-height: 700px;
+  }
+  .home-area .home-content .main-class .home-title h1 {
+    font-size: 20px;
+  }
+  .home-area .home-content .main-class .home-title p {
+    font-size: 15px;
+  }
+  .home-area .home-content .main-class .notification {
+    font-size: 15px;
+  }
+  .home-area .home-content .main-class .notify-form {
+    width: 90%;
+  }
+  .home-area .home-content .main-class .notify-form .input-group button {
+    padding: 5px 5px;
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";window.addEventListener("DOMContentLoaded",function(){new Splide("#splide",{type:"fade",perPage:1,autoplay:true,arrows:false,rewind:true,}).mount();});
