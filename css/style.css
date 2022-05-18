@@ -1566,3 +1566,8 @@ body.light hr.separator {
         margin-top: 35px!important
     }
 }
+
+.portfolio-style {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
